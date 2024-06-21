@@ -1,5 +1,5 @@
 body {
-    background-color: #e0f7fa; /* Fond bleu clair épuré */
+    background-color: #e0f7fa; 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -25,7 +25,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 10px;
-    flex: 1 1 calc(33.333% - 20px); /* Three cards per row with margin */
+    flex: 1 1 calc(33.333% - 20px); 
     box-sizing: border-box;
     max-width: calc(33.333% - 20px);
 }

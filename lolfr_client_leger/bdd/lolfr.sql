@@ -15,16 +15,16 @@ CREATE TABLE `admin` (
 
 
 
-INSERT INTO `admin` (`ID_Admin`, `Prenom`, `Email`, `MotDePasse`) VALUES
+INSERT INTO `admin` (`id_admin`, `prenom`, `email`, `mdp`) VALUES
 (1, 'Enzo', 'enzo@gmail.com', '123');
 
 
 ALTER TABLE `admin`
-  ADD PRIMARY KEY (`ID_Admin`);
+  ADD PRIMARY KEY (`id_admin`);
 
 
 ALTER TABLE `admin`
-  MODIFY `ID_Admin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_admin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 

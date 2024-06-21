@@ -17,7 +17,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 html { overflow-y: scroll; }
 body { 
-  background: #eee url('https://i.imgur.com/eeQeRmk.png'); /* https://subtlepatterns.com/weave/ */
+  background: #eee url('https://i.imgur.com/eeQeRmk.png'); 
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 62.5%;
   line-height: 1;
@@ -62,7 +62,6 @@ h1 {
 }
 
 
-/** page structure **/
 #wrapper {
   display: block;
   width: 850px;

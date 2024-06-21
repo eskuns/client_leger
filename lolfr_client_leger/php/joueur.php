@@ -28,7 +28,6 @@ if (isset($_GET['nom'])) {
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
         if (count($result) > 0) {
             foreach ($result as $row) {
-                // Code de la card HTML
                 echo '<div class="card" style="max-width: 540px;">';
                 echo '  <div class="row">';
                 echo '    <div class="col">';
